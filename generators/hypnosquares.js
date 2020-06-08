@@ -1,7 +1,6 @@
-const fs = require("fs"),
-  Canvas = require("canvas"),
+const Canvas = require("canvas"),
   helpers = require(__dirname + "/../helpers/general.js");
-
+// removed: fs = require("fs"),
 //smartDevel20200420 new style hypnotic squares
 module.exports = function(options, cb) {
   /* 
@@ -37,7 +36,7 @@ module.exports = function(options, cb) {
   ctx.lineWidth = 2;
 
  // var step = size / 7;
-  var white = "#F2F5F1";
+ // var white = "#F2F5F1";
   
 //var size = 320;
 //var dpr = window.devicePixelRatio;
