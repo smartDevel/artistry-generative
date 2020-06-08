@@ -39,5 +39,5 @@ app.use('/image', require('./routes/image.js'))
 app.get('/js/helpers.js', function (req, res) {
   res.sendFile(path.join(__dirname + '/helpers/general.js'));
 });
-// test
+
 module.exports = app;
